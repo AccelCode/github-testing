@@ -1,38 +1,52 @@
 #Finger Excercise 2.3
 x,y,z=24,46,67
+
 if x%2==1:
   print 'x is odd'
+
   if y%2==1:
     print 'y is odd'
+
     if z%2==1:
       #x is odd, y is odd, and z is odd
       print 'z is odd'
+
     else:
       #x is odd, y is odd, and z is even
       print 'z is even'
+
   else:
     print 'y is even'
+
     if z%2==1:
       #x is odd, y is even, and z is odd
       print 'z is odd'
+
     else:
       #x is odd, y is even, and z is even
       print 'z is even'
+
 else:
   print 'x is even'
+
   if y%2==1:
     print 'y is odd'
+
     if z%2==1:
       #x is even, y is odd, and z is odd
       print 'z is odd'
+
     else:
       #x is even, y is odd, and z is even
       print 'z is even'
+
   else:
     print 'y is even'
+
     if z%2==1:
       #x is even, y is even, and z is odd
       print 'z is odd'
+      
     else:
       #x is even, y is even, and z is even
       print 'z is even'
